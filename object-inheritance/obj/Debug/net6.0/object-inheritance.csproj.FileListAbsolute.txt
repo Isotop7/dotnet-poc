@@ -1,0 +1,15 @@
+/Users/hendrik/dev/dotnet-poc/object-inheritance/obj/Debug/net6.0/object-inheritance.csprojAssemblyReference.cache
+/Users/hendrik/dev/dotnet-poc/object-inheritance/obj/Debug/net6.0/object-inheritance.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hendrik/dev/dotnet-poc/object-inheritance/obj/Debug/net6.0/object-inheritance.AssemblyInfoInputs.cache
+/Users/hendrik/dev/dotnet-poc/object-inheritance/obj/Debug/net6.0/object-inheritance.AssemblyInfo.cs
+/Users/hendrik/dev/dotnet-poc/object-inheritance/obj/Debug/net6.0/object-inheritance.csproj.CoreCompileInputs.cache
+/Users/hendrik/dev/dotnet-poc/object-inheritance/bin/Debug/net6.0/object-inheritance.deps.json
+/Users/hendrik/dev/dotnet-poc/object-inheritance/bin/Debug/net6.0/object-inheritance.runtimeconfig.json
+/Users/hendrik/dev/dotnet-poc/object-inheritance/bin/Debug/net6.0/object-inheritance.runtimeconfig.dev.json
+/Users/hendrik/dev/dotnet-poc/object-inheritance/bin/Debug/net6.0/object-inheritance.dll
+/Users/hendrik/dev/dotnet-poc/object-inheritance/bin/Debug/net6.0/ref/object-inheritance.dll
+/Users/hendrik/dev/dotnet-poc/object-inheritance/bin/Debug/net6.0/object-inheritance.pdb
+/Users/hendrik/dev/dotnet-poc/object-inheritance/obj/Debug/net6.0/object-inheritance.dll
+/Users/hendrik/dev/dotnet-poc/object-inheritance/obj/Debug/net6.0/ref/object-inheritance.dll
+/Users/hendrik/dev/dotnet-poc/object-inheritance/obj/Debug/net6.0/object-inheritance.pdb
+/Users/hendrik/dev/dotnet-poc/object-inheritance/obj/Debug/net6.0/object-inheritance.genruntimeconfig.cache
