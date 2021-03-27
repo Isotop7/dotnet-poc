@@ -13,10 +13,16 @@ namespace WebAPIClient
 
         static async Task Main(string[] args)
         {
-            await ProcessRepositories();
+            var username = "Isotop7";
+            var repositories = await ProcessRepositories(username);
+            Console.WriteLine("Found the following repos for user '" + username + "':");
+            foreach (var repo in repositories)
+            {
+                Console.WriteLine("> " + repo.Name);
+            }
         }
 
-        private static async Task ProcessRepositories()
+        private static async Task<List<Repository>> ProcessRepositories(string username)
         {
             cli.DefaultRequestHeaders.Accept.Clear();
             cli.DefaultRequestHeaders.Accept.Add(
@@ -24,13 +30,9 @@ namespace WebAPIClient
             );
             cli.DefaultRequestHeaders.Add("User-Agent", ".NET Foundation Repository Reporter");
 
-            var streamTask = cli.GetStreamAsync("https://api.github.com/users/isotop7/repos");
-            var repositories = await JsonSerializer.DeserializeAsync<List<Repository>>(await streamTask);
-
-            foreach (var repo in repositories)
-            {
-                Console.WriteLine(repo.name);
-            }
+            var repoURL = "https://api.github.com/users/" + username + "/repos";
+            var streamTask = cli.GetStreamAsync(repoURL);
+            return await JsonSerializer.DeserializeAsync<List<Repository>>(await streamTask);
         }
     }
 }
